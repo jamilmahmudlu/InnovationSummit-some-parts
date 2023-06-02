@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovation Summit</title>
+    <link rel="icon" href="./img/base_icon_transparent_background-1.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="js/index.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+    (function(){
+      emailjs.init("-Kw9oXgcsHUb8wR2s");
+    })();
+    </script>
+<style>
+  body {
+  background: #232323;
+}
+.accordion{
+  margin: 40px 0;
+}
+.accordion .item {
+    border: none;
+    margin-bottom: 50px;
+    background: none;
+}
+.t-p{
+  /* padding: 40px 30px 0px 30px; */
+}
+.accordion .item .item-header h2 button.btn.btn-link {
+    color: white;
+    border-radius: 0px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.5;
+    text-decoration: none;
+}
+.accordion .item .item-header {
+    border-bottom: none;
+    background: transparent;
+    padding: 0px;
+    margin: 2px;
+}
+
+.accordion .item .item-header h2 button {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.accordion .item .item-header h2 i {
+    float: right;
+    font-size: 30px;
+    color: white;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+button.btn.btn-link.collapsed i {
+    transform: rotate(0deg);
+}
+
+button.btn.btn-link i {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+</style>
+  </head>
+<body style="color: white; font-family: 'Montserrat', sans-serif; background-color: rgba(1, 3, 58, 0.883);">
+    <div class="main mb-5">
+        <div class="header" style="padding-bottom: 50px; background-repeat: no-repeat; background-image: linear-gradient(to right, #9a73e225, rgba(54, 123, 90, 0.913)),">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="border-color: white;">
+                <span class="navbar-toggler-icon" style="background-image: url(https://www.clipartmax.com/png/full/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png);"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a class="navbar-brand" href="index.html"><img src="./img/logo.png" alt="" width="230"></a>
+                  <ul class="navbar-nav ml-auto mt-2 mt-lg-0" style="align-items: center;">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="partners.html">Sponsors <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="agenda.html" style="border-bottom: 1px solid white;">Agenda <span class="sr-only">(current)</span></a>
+                      </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="contact.html">Get in Touch <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="startup.html"><button style="background-color: rgb(155, 0, 149); border: transparent; border-radius: 20px; padding: 10px 17px; color: white;">Apply as Startup</button></a>
+                    </li>
+                    <li class="nav-item active">
+                      <button data-toggle="modal" data-target="#exampleModall" style="background-color: white; border: transparent; border-radius: 20px; padding: 10px 17px; color: rgb(155, 0, 149);">Get Tickets</button>
+                      <div class="modal fade" id="exampleModall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 style="color: #000000;" class="modal-title" id="exampleModalLabel">Pre-register for Innovation Summit 2023 now and get 50% off your ticket.</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div style="color: rgb(62, 62, 62); text-align: start;" class="modal-header">
+                              We will return to Baku next December. Save 50% on your 2023 ticket by pre-registering for a 2 for 1 discount code.
+<br><br>
+You’ll get two Innovation Summit tickets for the price of one, so you can bring a friend for free.
+<br><br>
+Grab your 2 for 1 tickets and join us in Baku. Sign up now for our next sale.
+
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div style="text-align: start;" class="form-group">
+                                  <label style="color: #000000;" for="recipient-name" class="col-form-label">Full Name:</label>
+                                  <input id="fullname" type="text" class="form-control fullname" id="fullname" placeholder="">
+
+                                </div>
+                                <div style="text-align: start;" class="form-group">
+                                  <label style="color: #000000;" for="message-text" class="col-form-label">Company:</label>
+                                  <input id="company" type="text" class="form-control company" id="company" placeholder="">
+                                </div>
+                                <div style="text-align: start;" class="form-group">
+                                  <label style="color: #000000;" for="message-text" class="col-form-label">Email:</label>
+                                  <input id="emailad" type="email" class="form-control emailad" id="emailad" placeholder="">
+                                </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" onclick="sendInfo()">Send</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+              <div class="container-fluid" style="margin-top: 95px;">
+                <div class="row">
+                  <div class="col-md-12 col-12" style="text-align: center;">
+                    <h4>December 13, 2022</h4>
+                    <h1 class="main-title">AGENDA OF EVENT</h1>
+                  </div>
+                </div>
+               
+              </div>
+              
+          </div>
+        </div>
+
+        <div style="text-align: center;">
+          <ul class="nav nav-pills" style="justify-content: center;">
+            <!-- <li class="active mobli"><a href="#home-main" style="padding: 15px; background: white; border-radius: 10px; margin-left: 10px;font-size: 13px;" class="active agenda-btn">All</a></li> -->
+            <li class="active mobli"><a href="#home" style="padding: 15px; background: white; border-radius: 10px; margin-left: 10px;font-size: 13px;" class="agenda-btn">Opening Sessions</a></li>
+            <li class="mobli"><a href="#menu1" style="padding: 15px; background: white; border-radius: 10px; margin-left: 10px;font-size: 13px;" class="agenda-btn">FinTech Vertical</a></li>
+            <li class="mobli"><a href="#menu2" style="padding: 15px; background: white; border-radius: 10px; margin-left: 10px;font-size: 13px;" class="agenda-btn">Telecom Vertical</a></li>
+            <li class="mobli"><a href="#menu3" style="padding: 15px; background: white; border-radius: 10px; margin-left: 10px;font-size: 13px;" class="agenda-btn">Energy Vertical</a></li>
+            <li class="mobli"><a href="#menu4" style="padding: 15px; background: white; border-radius: 10px; margin-left: 10px; font-size: 13px;" class="agenda-btn">Corporate Innovation Workshops</a></li>
+            <li class="mobli"><a href="#menu5" style="padding: 15px; background: white; border-radius: 10px; margin-left: 10px; font-size: 13px;" class="agenda-btn">Networking and Startup Pitching</a></li>
+            <li class="mobli"><a href="#menu6" style="padding: 15px; background: white; border-radius: 10px; margin-left: 10px;font-size: 13px;" class="agenda-btn">Closing Sessions</a></li>
+  
+          </ul>
+          
+          <div class="tab-content mt-5 container">
+
+
+            
+
+            
+      
+            <div id="home-main" class="tab-pane in active show">
+              <div class="accordion" id="accordionExample">
+                  <h1 id="home">Opening Sessions</h1>
+                  <!-- <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                     <div class="item-header" id="headingOne">
+                        <h2 style="font-family: Montserrat;" class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link" type="button" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           08:00 AM - 09:00 AM
+                            </div>
+                            <div class="col-md-9">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link" type="button" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           Registration
+                           <i class="fa fa-angle-down"></i>
+                            </div>
+                            
+                            </button>
+                          </div>
+                          <div>
+                          </div>
+                        </h2>
+                     </div>
+                     <div id="collapseOne" class="row collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="col-md-3">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/rb.png" alt="">
+                        </div>
+                        <div class="col-md-9">
+                          <h3 style="text-align:start;">Robin Sharma</h3>
+                        </div>
+                     </div>
+                  </div> -->
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3" style="color: white;
+                            font-size: 20px;
+                            padding: 29px;
+                            display: block;
+                            width: 100%;
+                            text-align: left; font-family: Montserrat; font-size: 20px;" >
+                              08:00 - 08:45
+                           <!-- <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              08:00 AM - 09:00 AM
+                            </button> -->
+                            </div>
+                            <div class="col-md-9" style="color: white;
+                            font-size: 20px;
+                            padding: 29px;
+                            display: block;
+                            width: 100%;
+                            text-align: left; font-family: Montserrat; font-size: 20px;" >
+                            Registration
+                              <!-- <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              Registration
+                              <i class="fa fa-angle-down"></i>
+                            </button> -->
+                            </div>
+                          </div>
+                        </h2>
+                     </div>
+                     <!-- <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="t-p">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </div>
+                     </div> -->
+                  </div>
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingOpening">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseOpening" aria-expanded="false"
+                              aria-controls="collapseOpening">
+                              09:00 - 09:30
+                              </button>
+                            </div>
+                            <div class="col-md-9">
+                            <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseOpening" aria-expanded="false"
+                              aria-controls="collapseOpening">
+                              Opening Speeches by Public and Private Sectors Leaders 
+                           <i class="fa fa-angle-down"></i>
+                           </button>
+                            </div>
+                          </div>
+                        </h2>
+                     </div>
+                     <div id="collapseOpening" class="row collapse" aria-labelledby="headingOpening"
+                        data-parent="#accordionExample">
+                        <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/mikayil.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Mikayil Jabbarov  </h3>
+                          <p style="text-align: start; color:gainsboro">Minister of Economу of the Republic of Azerbaijan</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                        <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/rn1.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Rashad Nabiyev </h3>
+                          <p style="text-align: start; color:gainsboro">Minister of Digital Development and Transport of the Republic of Azerbaijan</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                         <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/ruslan.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Ruslan Alikhanov</h3>
+                          <p style="text-align: start; color:gainsboro">CEO of Azerbaijan Investment Holding and Member of SOCAR Supervisory Board</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                        <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/j.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Jalal Gasimov</h3>
+                          <p style="text-align: start; color:gainsboro">CEO of PASHA Holding</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                         
+                     </div>
+                  </div>
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseThree" aria-expanded="false"
+                              aria-controls="collapseThree">
+                              09:30 - 10:35
+                              </button>
+                            </div>
+                            <div class="col-md-9">
+                            <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseThree" aria-expanded="false"
+                              aria-controls="collapseThree">
+                              Opening Keynote by Robin Sharma
+                           <i class="fa fa-angle-down"></i>
+                           </button>
+                            </div>
+                          </div>
+                        </h2>
+                     </div>
+                     <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="col-md-3">
+                          <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+                         </div>
+                         <div class="col-md-9">
+                          <p style="text-align: start; color:gainsboro">Innovation Hero Manifesto</p>
+                          <h3 style="text-align: start;">Robin Sharma</h3>
+                          <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                     </div>
+                  </div>
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingFour">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                 data-target="#collapseFour" aria-expanded="false"
+                                 aria-controls="collapseFour">
+                                 10:35 - 11:20
+                              </button>
+                            </div>
+                            <div class="col-md-9">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseFour" aria-expanded="false"
+                              aria-controls="collapseFour">Panel: How to Build Ecosystem that Supports and Drives Innovation <br> Culture (and Q&A) 
+                              <i class="fa fa-angle-down"></i>
+                              </button>
+                            </div>
+                          </div>
+                        </h2>
+                     </div>
+                     <div id="collapseFour" class="row collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="col-md-3">
+                          <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+                         </div>
+                         <div class="col-md-9">
+                          <h3 style="text-align: start;">Robin Sharma</h3>
+                          <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                        <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/kiangohars.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Kian Gohar</h3>
+                          <p style="text-align: start; color:gainsboro">Global Innovation Leader, Founder and President of Geolab, Former Executive Director of XPRIZE Foundation & Singularity University</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                        <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/j.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Jalal Gasimov</h3>
+                          <p style="text-align: start; color:gainsboro">CEO of PASHA Holding</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                        <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/inara.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Inara Valiyeva</h3>
+                          <p style="text-align: start; color:gainsboro">Acting Chairman at Innovation and Digital Development Agency</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                         <div class="col-md-12 mt-2">
+                          <h2>Moderated by</h2>
+                         </div>
+                         <div class="col-md-3 mt-3">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/dan.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-3">
+                          <h3 style="text-align: start;">DanRam</h3>
+                          <p style="text-align: start; color:gainsboro">Global Event MC, Startup Ecosystem Expert</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                     </div>
+                  </div>
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingFive">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3" style="color: white;
+                            font-size: 20px;
+                            padding: 29px;
+                            display: block;
+                            width: 100%;
+                            text-align: left; font-family: Montserrat; font-size: 20px;" >
+                              11:20 - 11:30
+                            </div>
+                          <div class="col-md-9" style="color: white;
+                          font-size: 20px;
+                          padding: 29px;
+                          display: block;
+                          width: 100%;
+                          text-align: left; font-family: Montserrat; font-size: 20px;" >
+                            Breakouts
+                          </div>
+                        </div>
+                        </h2>
+                     </div>
+                     <!-- <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                        data-parent="#accordionExample">
+                        <div class="t-p">
+                           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </div>
+                     </div> -->
+                  </div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                  <h1 id="menu1">FinTech Vertical</h1>
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                  <div class="item-header" id="headingTE">
+                    <h2 class="mb-0">
+                      <div class="row">
+                        <div class="col-md-3">
+                       <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseTE" aria-expanded="false" aria-controls="collapseTE">
+                          11:30 - 12:15
+                        </button>
+                        </div>
+                        <div class="col-md-9">
+                          <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseTE" aria-expanded="false" aria-controls="collapseTE">
+                          Keynote by Chris Skinner and Q&A
+                          <i class="fa fa-angle-down"></i>
+                        </button>
+                        </div>
+                      </div>
+                    </h2>
+                    <div id="collapseTE" class="row collapse" aria-labelledby="headingTE"
+                    data-parent="#accordionExample">
+                    <div class="col-md-3">
+                      <img style="width: 200px; border-radius: 10px;" src="./img/skinner2.png" alt="">
+                     </div>
+                     <div class="col-md-9">
+                       <p style="text-align: start; color:gainsboro">The Financial Brand</p>
+                      <h3 style="text-align: start;">Chris Skinner</h3>
+                      <p style="text-align: start; color:gainsboro">Global FinTech Leader | CEO at The Finanser</p>
+                      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                     </div>
+                 </div>
+                 </div>
+                </div>
+            <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+              <div class="item-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <div class="row">
+                      <div class="col-md-3">
+                     <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        12:15 - 13:00
+                      </button>
+                      </div>
+                      <div class="col-md-9">
+                        <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Panel: The Fintech Ecosystem & Strategic Partnerships – From Competition <br> To Collaboration & Co-Creation
+                        <i class="fa fa-angle-down"></i>
+                      </button>
+                      </div>
+                     
+                    </div>
+                  </h2>
+               </div>
+               <div id="collapseTwo" class="row collapse" aria-labelledby="headingTwo"
+                  data-parent="#accordionExample">
+               <div class="col-md-3">
+                <img style="width: 200px; border-radius: 10px;" src="./img/faridosmanov.png" alt="">
+               </div>
+               <div class="col-md-9">
+      <!-- <p style="text-align: start; color:gainsboro">Panel: The Fintech Ecosystem & Strategic Partnerships – From Competition To Collaboration & Co-Creation</p> -->
+
+                <h3 style="text-align: start;">Farid Osmanov</h3>
+                <p style="text-align: start; color:gainsboro">Executive Director of Central Bank of Azerbaijan</p>
+              </div>
+               <div class="col-md-3 mt-4">
+                <img style="width: 200px; border-radius: 10px;" src="./img/FARID MAMMADOV.png" alt="">
+               </div>
+               <div class="col-md-9 mt-4">
+                <h3 style="text-align: start;">Farid Mammadov</h3>
+                <p style="text-align: start; color:gainsboro">Deputy CEO of PASHA Holding, Former Deputy CEO at Kapital Bank</p>
+              </div>
+               <div class="col-md-3 mt-4">
+                <img style="width: 200px; border-radius: 10px;" src="./img/meirav2.png" alt="">
+               </div>
+               <div class="col-md-9 mt-4">
+                <h3 style="text-align: start;">Meirav Harel</h3>
+                <p style="text-align: start; color:gainsboro">Global FinTech, Blockchain and Trading Expert</p>
+              </div>
+              <div class="col-md-3 mt-4">
+                <img style="width: 200px; border-radius: 10px;" src="./img/skinner2.png" alt="">
+               </div>
+               <div class="col-md-9 mt-4">
+                 <!-- <p style="text-align: start; color:gainsboro">Telecom Networks: How Core vs EDGE is Rebalancing Power, Domestically and Globally</p> -->
+                <h3 style="text-align: start;">Chris Skinner</h3>
+                <p style="text-align: start; color:gainsboro">Global FinTech Leader | CEO at The Finanser</p>
+                <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+               </div>
+              
+               
+              <div class="col-md-12 mt-2">
+                <h2>Moderated by</h2>
+               </div>
+               <div class="col-md-3 mt-3">
+                <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/tal2.png" alt="">
+               </div>
+               <div class="col-md-9 mt-3">
+                <h3 style="text-align: start;">Tal Sharon</h3>
+                <p style="text-align: start; color:gainsboro">Managing Partner at Equitech, President at Israeli FinTech Association</p>
+              </div>
+               </div>
+            </div>
+            <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+              <div class="item-header" id="headingThree">
+                <h2 class="mb-0">
+                  <div class="row">
+                    <div class="col-md-3" style="color: white;
+                    font-size: 20px;
+                    padding: 29px;
+                    display: block;
+                    width: 100%;
+                    text-align: left; font-family: Montserrat; font-size: 20px;" >
+                      13:00 - 14:00
+                    </div>
+                    <div class="col-md-9" style="color: white;
+                    font-size: 20px;
+                    padding: 29px;
+                    display: block;
+                    width: 100%;
+                    text-align: left; font-family: Montserrat; font-size: 20px;" >
+                      Lunch
+                    </div>   
+            </div>
+          </div>
+          <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+           </div>
+           <div class="col-md-9">
+            <h3 style="text-align: start;">Robin Sharma</h3>
+            <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           <!-- </div>
+       </div> -->
+      </div>
+      <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingStartupTwo">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3">
+             <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseStartupTwo" aria-expanded="false" aria-controls="collapseStartupTwo">
+                14:00 - 15:00
+              </button>
+              </div>
+              <div class="col-md-9">
+                <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseStartupTwo" aria-expanded="false" aria-controls="collapseStartupTwo">
+                Selected FinTech Startup Pitching
+                <i class="fa fa-angle-down"></i>
+              </button>
+              </div>
+            </div>
+          </h2>
+          <div id="collapseStartupTwo" class="row collapse" aria-labelledby="headingStartupTwo"
+          data-parent="#accordionExample">
+          <!-- <div class="col-md-3">
+            
+            <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+            <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+            <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+            <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+           </div> -->
+           <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-3 mb-3">
+               <a href="https://www.yancep.com/"><img style="width: 200px; border-radius: 10px;" src="./img/logo6.png" alt=""></a> 
+              </div>
+              <div class="col-md-3 mb-5">
+                <a href="https://zypl.ai/ "><img style="width: 200px; border-radius: 10px;" src="./img/logo7.png" alt=""></a> 
+              </div>
+              <div class="col-md-3 mb-5">
+                <a href="https://alternatif.app/en"><img style="width: 200px; border-radius: 10px;" src="./img/logo8.png" alt=""></a> 
+              </div>
+              <div class="col-md-3 mb-5">
+                <a href="https://www.jeff-app.com/"><img style="width: 200px; border-radius: 10px;" src="./img/logo9.png" alt=""></a> 
+              </div>
+              <div class="col-md-3 mb-5">
+                <a href="https://www.receptapp.com/"><img style="width: 200px; border-radius: 10px;" src="./img/logo10.png" alt=""></a> 
+              </div>
+              <div class="col-md-3 mb-5">
+                <a href="https://payze.io/en"><img style="width: 200px; border-radius: 10px;" src="./img/logo13.png" alt=""></a> 
+              </div>
+              
+              <div class="col-md-3 mb-5">
+                <a href="https://insure.az/"><img style="width: 200px; border-radius: 10px;" src="./img/logo12.png" alt=""></a> 
+              </div>
+              <div class="col-md-3 mb-5">
+                <a href="https://www.kvalifika.com/"><img style="width: 200px; border-radius: 10px;" src="./img/logo11.png" alt=""></a> 
+              </div>
+              <div class="col-md-3 mb-5">
+                <a href="https://epoint.az/ "><img style="width: 200px; border-radius: 10px;" src="./img/gen2.png" alt=""></a> 
+              </div>
+              <div class="col-md-3 mb-5">
+                <a href="https://smilepay.az/"><img style="width: 200px; border-radius: 10px;" src="./img/26.png" alt=""></a> 
+              </div>
+              
+            </div>
+          </div>
+           
+       </div>
+       </div>
+      </div>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <h1 id="menu2">Telecom Vertical</h1>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingOne">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3">
+             <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                11:30 - 12:15
+              </button>
+              </div>
+              <div class="col-md-9">
+                <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Keynote by Philippe Dewost and Q&A
+                <i class="fa fa-angle-down"></i>
+              </button>
+              </div>
+            </div>
+          </h2>
+          <div id="collapseOne" class="row collapse" aria-labelledby="headingOne"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="./img/ga.png" alt="">
+           </div>
+           <div class="col-md-9">
+             <p style="text-align: start; color:gainsboro">Telecom Networks: How Core vs EDGE is Rebalancing Power, Domestically and Globally</p>
+            <h3 style="text-align: start;">Philippe Dewost</h3>
+            <p style="text-align: start; color:gainsboro">CEO of EPITA, Co-Founder of Wanadoo, Inspired La French Tech</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+       </div>
+       </div>
+      </div>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingThree">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                12:15 - 13:15
+              </div>
+              <div class="col-md-9" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                Lunch
+              </div>   
+      </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Robin Sharma</h3>
+      <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     <!-- </div>
+ </div> -->
+</div>
+<div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingTwelve">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3">
+       <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          13:15 - 14:00
+        </button>
+        </div>
+        <div class="col-md-9">
+          <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          Panel: Using Partner Ecosystems to drive Telco Growth
+          <i class="fa fa-angle-down"></i>
+        </button>
+        </div>
+      </div>
+    </h2>
+    <div id="collapseTwelve" class="row collapse" aria-labelledby="headingTwelve"
+    data-parent="#accordionExample">
+    
+    <div class="col-md-3">
+      <img style="width: 200px; border-radius: 10px;" src="./img/ga.png" alt="">
+     </div>
+     <div class="col-md-9">
+      <!-- <p style="text-align: start; color:gainsboro">Panel: Using Partner Ecosystems to drive Telco Growth</p> -->
+
+      <h3 style="text-align: start;">Philippe Dewost</h3>
+      <p style="text-align: start; color:gainsboro">CEO of EPITA, Co-Founder of Wanadoo, Inspired La French Tech</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+    <div class="col-md-3 mt-4">
+      <img style="width: 200px; border-radius: 10px;" src="./img/samaddin.png" alt="">
+     </div>
+     <div class="col-md-9 mt-4">
+      <h3 style="text-align: start;">Samaddin Asadov</h3>
+      <p style="text-align: start; color:gainsboro">Chairman of AzerCosmos</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+     <div class="col-md-3 mt-4">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/elchingulmammadov.png" alt="">
+     </div>
+     <div class="col-md-9 mt-4">
+      <h3 style="text-align: start;">Elchin Gulmammadov</h3>
+      <p style="text-align: start; color:gainsboro">Head Of Marketing at Bakcell</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+     <div class="col-md-3 mt-4">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/Xuhui.png" alt="">
+     </div>
+     <div class="col-md-9 mt-4">
+      <h3 style="text-align: start;">Xu Hui (David)</h3>
+      <p style="text-align: start; color:gainsboro">General Director, Huawei Azerbaijan</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+     <div class="col-md-12 mt-2">
+      <h2>Moderated by</h2>
+     </div>
+     <div class="col-md-3 mt-3">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/igor.png" alt="">
+     </div>
+     <div class="col-md-9 mt-3">
+      <h3 style="text-align: start;">Igor Ovcharenko</h3>
+      <p style="text-align: start; color:gainsboro">Consultant at IDDA, Global Startup Ecosystem Development Expert</p>
+    </div>
+ </div>
+ </div>
+</div>
+<div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingStartup">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3">
+       <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseStartup" aria-expanded="false" aria-controls="collapseStartup">
+          14:00 - 15:00
+        </button>
+        </div>
+        <div class="col-md-9">
+          <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseStartup" aria-expanded="false" aria-controls="collapseStartup">
+          Selected Telecom Startup Pitching
+          <i class="fa fa-angle-down"></i>
+        </button>
+        </div>
+      </div>
+    </h2>
+    <div id="collapseStartup" class="row collapse" aria-labelledby="headingStartup"
+    data-parent="#accordionExample">
+    <!-- <div class="col-md-3">
+      
+      <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+      <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+      <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+      <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+     </div> -->
+     <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-2 mb-3">
+         <a href="https://mobimatter.com/"><img style="width: 200px; border-radius: 10px;" src="./img/1logo.png" alt=""></a> 
+        </div>
+        <div class="col-md-2 ml-md-3 mb-3">
+          <a href="https://nectmodem.com/ "><img style="width: 200px; border-radius: 10px;" src="./img/2logo.png" alt=""></a> 
+        </div>
+        <div class="col-md-2 ml-md-3 mb-3">
+          <a href="https://weezie.io/"><img style="width: 200px; border-radius: 10px;" src="./img/3logo.png" alt=""></a> 
+        </div>
+        <div class="col-md-2 ml-md-3 mb-3">
+          <a href="https://www.instacall.az/"><img style="width: 200px; border-radius: 10px;" src="./img/4logo.png" alt=""></a> 
+        </div>
+        <div class="col-md-2 ml-md-3 mb-3">
+          <a href="https://iomete.com/"><img style="width: 200px; border-radius: 10px;" src="./img/5logo.png" alt=""></a> 
+        </div>
+        <div class="col-md-2 ml-md-3 mb-3">
+          <a href="https://www.dataroid.com/"><img style="width: 200px; border-radius: 10px;" src="./img/27.png" alt=""></a> 
+        </div>
+        <div class="col-md-2 ml-md-3 mb-3">
+          <a href="https://www.gorilla.link/"><img style="width: 200px; border-radius: 10px;" src="./img/28.png" alt=""></a> 
+        </div>
+        <div class="col-md-2 ml-md-3 mb-3">
+          <a href="https://butterflyeffect.team/"><img style="width: 200px; border-radius: 10px;" src="./img/butterflyeffect.png" alt=""></a> 
+        </div>
+        <div class="col-md-2 ml-md-3 mb-3">
+          <a href="https://siltatel.business.site/"><img style="width: 200px; border-radius: 10px;" src="./img/siltatel.png" alt=""></a> 
+        </div>
+      </div>
+    </div>
+     
+ </div>
+ </div>
+</div>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <h1 id="menu3">Energy Vertical</h1>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingFourteen">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3">
+             <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                11:30 - 12:15
+              </button>
+              </div>
+              <div class="col-md-9">
+                <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                Keynote by Jeroen van der Veer and Q&A
+                <i class="fa fa-angle-down"></i>
+              </button>
+              </div>
+            </div>
+          </h2>
+          <div id="collapseFourteen" class="row collapse" aria-labelledby="headingFourteen"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="./img/jeroen.png" alt="">
+           </div>
+           <div class="col-md-9">
+             <p style="text-align: start; color:gainsboro">Global Innovation Trends in Energy Sector: Fossils and Renewables</p>
+            <h3 style="text-align: start;">Jeroen van der Veer</h3>
+            <p style="text-align: start; color:gainsboro">Former CEO of Shell, Vice-Chair of Equinor and governing Board EIT (European Institute for Technology and Innovation)</p>
+            <p style="text-align: start;">Short- and long-term innovation trends in the supply side of energy both in fossils and Renewables. Covering electrification, nuclear and CCUS (Carbon use / storage), trends in the demand side including smart grids, consumer behaviours and what governments can do regarding the energy mix, the role of Carbon pricing and Carbon border tasks, touching the finance side of the energy transition and longer-term geopolitical aspects, ending with his views regarding the role/opportunities for startups/scale ups on the one hand and the traditional big energy companies on the other hand.
+            </p>
+
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+
+       </div>
+       </div>
+      </div>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingThree">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                12:15 - 13:15
+              </div>
+              <div class="col-md-9" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                Lunch
+              </div>   
+      </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Robin Sharma</h3>
+      <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     <!-- </div>
+ </div> -->
+</div>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingFifteen">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3">
+             <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                13:15 - 14:00
+              </button>
+              </div>
+              <div class="col-md-9">
+                <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                Panel: Oil and Gas in a Net Zero World: Case for Innovation
+                <i class="fa fa-angle-down"></i>
+              </button>
+              </div>
+            </div>
+          </h2>
+          <div id="collapseFifteen" class="row collapse" aria-labelledby="headingFifteen"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="./img/jeroen.png" alt="">
+           </div>
+           <div class="col-md-9">
+            
+            <h3 style="text-align: start;">Jeroen van der Veer</h3>
+            <p style="text-align: start; color:gainsboro">Former CEO of Shell, Vice-Chair of Equinor and governing Board EIT (European Institute for Technology and Innovation)</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+          <div class="col-md-3 mt-4">
+            <img style="width: 200px; border-radius: 10px;" src="./img/22.png" alt="">
+           </div>
+           <div class="col-md-9 mt-4">
+            <h3 style="text-align: start;">Regis Agut</h3>
+            <p style="text-align: start; color:gainsboro">Managing Director and Country Chair at TotalEnergies</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+
+           <div class="col-md-3 mt-4">
+            <img style="width: 200px; border-radius: 10px;" src="./img/33.png" alt="">
+           </div>
+           <div class="col-md-9 mt-4">
+            <h3 style="text-align: start;">Movlan Pashayev</h3>
+            <p style="text-align: start; color:gainsboro">Country Managing Partner at PwC</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+
+           <div class="col-md-3 mt-4">
+            <img style="width: 200px; border-radius: 10px;" src="./img/zaurgurbanov.png" alt="">
+           </div>
+           <div class="col-md-9 mt-4">
+            <h3 style="text-align: start;">Zaur Gurbanov</h3>
+            <p style="text-align: start; color:gainsboro">Vice President at SOCAR</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+           <div class="col-md-3 mt-4">
+            <img style="width: 200px; border-radius: 10px;" src="./img/bakhtiyar.png" alt="">
+           </div>
+           <div class="col-md-9 mt-4">
+            <h3 style="text-align: start;">Bakhtiyar Aslanbeyli</h3>
+            <p style="text-align: start; color:gainsboro">Vice President for the Caspian region, Communications and External Affairs at bp</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+           
+           <div class="col-md-12 mt-2">
+             <h2>Moderated by</h2>
+            </div>
+            <div class="col-md-3 mt-3">
+              <img style="width: 200px; border-radius: 10px;" src="./img/rb.png" alt="">
+             </div>
+             <div class="col-md-9 mt-3">
+              <h3 style="text-align: start;">Rashad Bayramov</h3>
+              <p style="text-align: start; color:gainsboro">Advisor to Minister of Digital Development and Transportation</p>
+              <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+             </div>
+       </div>
+       </div>
+      </div>
+      
+    </div>
+    <div class="accordion" id="accordionExample">
+      <h1 id="menu4">Corporate Innovation Workshops</h1>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingSeventeen">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3">
+             <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                11:30 - 13:00
+              </button>
+              </div>
+              <div class="col-md-9">
+                <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                Co-Ideate and Co-Create. How VISA Helps Partners to Drive Innovations
+                <i class="fa fa-angle-down"></i>
+              </button>
+              </div>
+            </div>
+          </h2>
+          <div id="collapseSeventeen" class="row collapse" aria-labelledby="headingSeventeen"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="./img/44.png" alt="">
+           </div>
+           <div class="col-md-9">
+            <h3 style="text-align: start;">Yevgen Lisnyak</h3>
+            <p style="text-align: start; color:gainsboro">Senior Director, Fintech & Ventures at Visa CISSEE</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+           
+       </div>
+       </div>
+      </div>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingThree">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                13:00 - 14:00
+              </div>
+              <div class="col-md-9" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                Lunch
+              </div>   
+      </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Robin Sharma</h3>
+      <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     <!-- </div>
+ </div> -->
+</div>
+<div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingNineteen">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3">
+       <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+          14:00 - 15:30
+        </button>
+        </div>
+        <div class="col-md-9">
+          <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+          The "How?” of Innovation: shaping your organization to compete, <br> win, and thrive
+          <i class="fa fa-angle-down"></i>
+        </button>
+        </div>
+      </div>
+    </h2>
+    <div id="collapseNineteen" class="row collapse" aria-labelledby="headingNineteen"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/Denis Bugrov.jpg" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Denis Bugrov</h3>
+      <p style="text-align: start; color:gainsboro">Senior Partner at McKinsey, Digital and Agile Transformations Expert</p>
+      <p style="text-align: start; color:gainsboro">The basic principles for how most organizations work are often decades-old, and no longer a good fit for the operating
+        challenges of the modern economy. How do you re-think and re-wire your organization and operating model to dramatically accelerate innovation, win favor with clients and talent, and drive efficiency all at the same time?</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+ </div>
+ </div>
+</div>
+<div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingTwenty">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3">
+       <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+           15:30 - 17:00
+        </button>
+        </div>
+        <div class="col-md-9">
+          <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+          Digital Innovation and Growth Through Corporate Venture Capital
+          <i class="fa fa-angle-down"></i>
+        </button>
+        </div>
+      </div>
+    </h2>
+    <div id="collapseTwenty" class="row collapse" aria-labelledby="headingTwenty"
+    data-parent="#accordionExample">
+    <div class="col-md-3 mb-3">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/peter.png" alt="">
+     </div>
+     <div class="col-md-9 mb-3">
+      <h3 style="text-align: start;">Dr. Peter Ulrich</h3>
+      <p style="text-align: start; color:gainsboro">President & CEO of UIA, Former BCG, IBM and EY Partner</p>
+      <p style="text-align: start; color:gainsboro; font-size: 20px; margin-top: 110px;">Panel:</p>
+      
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+     <div class="col-md-3 mt-3">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/marvin.png" alt="">
+     </div>
+     <div class="col-md-9 mt-5">
+      <h3 style="text-align: start;">Marvin Liao </h3>
+      <p style="text-align: start; color:gainsboro">Global Macro Investor & Partner, Diaspora Ventures</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+     <div class="col-md-3 mt-5">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/rick.png" alt="">
+     </div>
+     <div class="col-md-9 mt-5">
+      <h3 style="text-align: start;">Rick Rasmussen</h3>
+      <p style="text-align: start; color:gainsboro">Industry Fellow, UC Berkeley</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+     <div class="col-md-12 mt-2">
+      <h2>Moderated by</h2>
+     </div>
+     <div class="col-md-3 mt-5">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/farrukh3.png" alt="">
+     </div>
+     <div class="col-md-9 mt-5">
+      <h3 style="text-align: start;">Farrukh Ali</h3>
+      <p style="text-align: start; color:gainsboro">Head of Innovations at PASHA Holding</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+ </div>
+ </div>
+</div>
+<div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingThree">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3" style="color: white;
+        font-size: 20px;
+        padding: 29px;
+        display: block;
+        width: 100%;
+        text-align: left; font-family: Montserrat; font-size: 20px;" >
+          17:00 - 17:15
+        </div>
+        <div class="col-md-9" style="color: white;
+        font-size: 20px;
+        padding: 29px;
+        display: block;
+        width: 100%;
+        text-align: left; font-family: Montserrat; font-size: 20px;" >
+          Break
+        </div>   
+</div>
+</div>
+<!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+data-parent="#accordionExample">
+<div class="col-md-3">
+<img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+</div>
+<div class="col-md-9">
+<h3 style="text-align: start;">Robin Sharma</h3>
+<p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+<!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+<!-- </div>
+</div> -->
+</div>
+   </div>
+   <div class="accordion" id="accordionExample">
+    <h1 id="menu5">Networking and Startup Pitching</h1>
+    <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingStartupTwoAgain">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3">
+           <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseStartupTwoAgain" aria-expanded="false" aria-controls="collapseStartupTwoAgain">
+              12:15 - 13:45
+            </button>
+            </div>
+            <div class="col-md-9">
+              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseStartupTwoAgain" aria-expanded="false" aria-controls="collapseStartupTwoAgain">
+              Ongoing Startup Pitching
+              <i class="fa fa-angle-down"></i>
+            </button>
+            </div>
+          </div>
+        </h2>
+        <div id="collapseStartupTwoAgain" class="row collapse" aria-labelledby="headingStartupTwoAgain"
+        data-parent="#accordionExample">
+        <!-- <div class="col-md-3">
+          
+          <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+          <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+          <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+          <img style="width: 200px; border-radius: 10px;" src="./img/chris.png" alt="">
+         </div> -->
+         <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-md-3 mb-3">
+             <a href="https://www.kerneltools.com/"><img style="width: 200px; border-radius: 10px;" src="./img/gen1.png" alt=""></a> 
+            </div>
+            
+            <div class="col-md-3 mb-5">
+              <a href="https://yazl.az/"><img style="width: 200px; border-radius: 10px;" src="./img/gen3.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://www.iokio.az/"><img style="width: 200px; border-radius: 10px;" src="./img/gen4.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://www.safavy.org/"><img style="width: 200px; border-radius: 10px;" src="./img/gen5.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://documood.az/"><img style="width: 200px; border-radius: 10px;" src="./img/gen6.png" alt=""></a> 
+            </div>
+            
+            <div class="col-md-3 mb-5">
+              <a href="https://www.hirelamp.co/"><img style="width: 200px; border-radius: 10px;" src="./img/gen7.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://push30.az/"><img style="width: 200px; border-radius: 10px;" src="./img/gen8.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://atruck.me/"><img style="width: 200px; border-radius: 10px;" src="./img/gen9.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://abysshub.com/"><img style="width: 200px; border-radius: 10px;" src="./img/gen10.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://bonpini.com/"><img style="width: 200px; border-radius: 10px;" src="./img/gen11.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://cakcuk.az/"><img style="width: 200px; border-radius: 10px;" src="./img/gen12.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://www.izzidone.com/"><img style="width: 200px; border-radius: 10px;" src="./img/gen13.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://tripsome.az/az"><img style="width: 200px; border-radius: 10px;" src="./img/gen14.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://www.datamind.ge/"><img style="width: 200px; border-radius: 10px;" src="./img/gen15.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://bonpara.com/"><img style="width: 200px; border-radius: 10px;" src="./img/gen16.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://www.eventeam.az/"><img style="width: 200px; border-radius: 10px;" src="./img/gen17.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://b2metric.com/"><img style="width: 200px; border-radius: 10px;" src="./img/gen18.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://reluxecollection.com/"><img style="width: 200px; border-radius: 10px;" src="./img/gen19.png" alt=""></a> 
+            </div>
+            <div class="col-md-3 mb-5">
+              <a href="https://parqour.com/"><img style="width: 200px; border-radius: 10px;" src="./img/gen20.png" alt=""></a> 
+            </div>
+            
+          </div>
+        </div>
+         
+     </div>
+     </div>
+    </div>
+    <!-- <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingThree">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              15:30 - 17:00
+            </div>
+            <div class="col-md-9" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              Ongoing Startup Pitching Continued
+            </div>   
+    </div>
+    </div>
+    </div> -->
+   </div>
+   <div class="accordion" id="accordionExample">
+    <h1 id="menu6">Closing Sessions & Award Ceremony</h1>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingTwentyfour">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3">
+           <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwentyfour" aria-expanded="false" aria-controls="collapseTwentyfour">
+              17:15 - 18:00
+            </button>
+            </div>
+            <div class="col-md-9">
+              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwentyfour" aria-expanded="false" aria-controls="collapseTwentyfour">
+              Closing Keynote by Kian Gohar and Q&A
+              <i class="fa fa-angle-down"></i>
+            </button>
+            </div>
+          </div>
+        </h2>
+        <div id="collapseTwentyfour" class="row collapse" aria-labelledby="headingTwentyfour"
+        data-parent="#accordionExample">
+        <div class="col-md-3">
+          <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/kiangohars.png" alt="">
+         </div>
+         <div class="col-md-9">
+           <p style="text-align: start; color:gainsboro">Moonshots Innovation: How to Make the Impossible, Possible</p>
+          <h3 style="text-align: start;">Kian Gohar</h3>
+          <p style="text-align: start; color:gainsboro">Global Innovation Leader, Founder and President of Geolab, Former Executive Director of XPRIZE Foundation & Singularity University</p>
+          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+         </div>
+     </div>
+     </div>
+    </div>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingTwentyM">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3">
+           <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwentyM" aria-expanded="false" aria-controls="collapseTwentyM">
+              18:00 - 18:30
+            </button>
+            </div>
+            <div class="col-md-9">
+              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwentyM" aria-expanded="false" aria-controls="collapseTwentyM">
+              Award Ceremony by Innovation and Digital Development Agency
+              <i class="fa fa-angle-down"></i>
+            </button>
+            </div>
+          </div>
+        </h2>
+        <div id="collapseTwentyM" class="row collapse" aria-labelledby="headingTwentyM"
+        data-parent="#accordionExample">
+        
+         <div class="col-md-12">
+           <p style="text-align: start; color:gainsboro">IDDA Awards ceremony organized by the Azerbaijan Innovation and Digital Development Agency shall recognize outstanding startups and ecosystem players who have demonstrated exceptional capabilities not just in terms of financial gains but also for the measurable impact on society.</p>
+          <h4 style="text-align: start;">This year, the following nominations will be announced: </h4>
+          <p style="text-align: start; color:gainsboro" class="mt-4">1. SKILLS BOOSTER OF THE YEAR</p>
+          <p style="text-align: start; color:gainsboro">2. TECH MEDIA OF THE YEAR</p>
+          <p style="text-align: start; color:gainsboro">3. DIGITALIZATION OF THE YEAR</p>
+          <p style="text-align: start; color:gainsboro">4. STARTUP ECOSYSTEM PLAYER OF THE YEAR</p>
+          <p style="text-align: start; color:gainsboro">5. ECOSYSTEM MVP (MOST VALUABLE PERSON) OF THE YEAR</p>
+          <p style="text-align: start; color:gainsboro">6. DISCOVERY OF THE YEAR</p>
+          <p style="text-align: start; color:gainsboro">7. TECH ENTREPRENEUR OF THE YEAR</p>
+          <p style="text-align: start; color:gainsboro">8. STARTUP OF THE YEAR</p>
+          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+         </div>
+     </div>
+     </div>
+    </div>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingThree">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              18:30 - 18:40
+            </div>
+            <div class="col-md-9" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              Closing Remarks
+            </div>   
+    </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+    <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+    </div>
+    <div class="col-md-9">
+    <h3 style="text-align: start;">Robin Sharma</h3>
+    <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+    <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+    <!-- </div>
+    </div> -->
+    </div>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingThree">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              18:40 - 20:00
+            </div>
+            <div class="col-md-9" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              Matchmaking Sessions and Networking
+            </div>   
+    </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+    <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+    </div>
+    <div class="col-md-9">
+    <h3 style="text-align: start;">Robin Sharma</h3>
+    <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+    <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+    <!-- </div>
+    </div> -->
+    </div>
+   </div>
+
+        
+      </div>
+          </div>
+          <footer class="text-center text-white" style="background-color: rgba(1, 3, 58, 0.883);">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section>
+                  <img width="200px" src="img/logo.png" alt="">
+                  <div>
+                    <img width="70%" src="./img/Logos1.png" alt="">
+                  </div>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+  
+            <div class="d-flex justify-content-center mb-4">
+              <div class="mr-5"><a href="https://www.facebook.com/innovationsummit.az?mibextid=LQQJ4d"><img src="./img/fbicon.png" width="30" alt=""></a></div>
+              <div class="mr-5"><a href="https://instagram.com/innovationsummit.az?igshid=NTdlMDg3MTY="><img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" width="30" alt=""></a></div>
+              <div><a href="https://www.linkedin.com/company/innovationsummit-az/"><img src="./img/linkedin-3-xxl.png" width="30" alt=""></a></div>
+  
+            </div>
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <span class="text-white" href="">Innovation Summit</span>
+            </div>
+            <!-- Copyright -->
+          </footer>
+      <!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  
+  })(window,document,'script','dataLayer','GTM-W79WS4Z');</script>
+  
+  <!-- End Google Tag Manager -->
+  
+   
+  
+   
+  
+  <!-- Google Tag Manager (noscript) -->
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W79WS4Z"
+  
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+  <!-- End Google Tag Manager (noscript) -->
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="slick/slick.js"></script>
+      <script>
+      
+            </script>
+  </body>
+  </html>
